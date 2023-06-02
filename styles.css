@@ -96,12 +96,16 @@ a:nth-child(2) {
 }
 
 a:hover {
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 header {
     margin: 24px 0 0 57px;
+    position: fixed;
+    top: 24px;
 }
+
+
 
 @media screen and (max-width: 900px) {
     .container-left {
